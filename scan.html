@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Martin's Coupon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <div class="everything">
+    <div class="greet">
+      <h3>Coupon Validation Success!</h3>
+      <br>
+      <p>_ Coupon claimed.. finally after a long time</p>
+    </div>
+    <div class="info">
+      <form action="https://script.google.com/macros/s/AKfycbzg2qtyJ7P2uw-wTk5eHX0Ghyld_VD2mqookbF7OXH6C813LoFWyUCCnTsqYgO76nYA/exec" method="POST" id="dataForm">
+        <fieldset>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="firsname" required>
+          <br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lastname" required>
+          <br>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+          <br>
+          <label for="platform">Platform:</label>
+          <select id="platform" name="platform" required>
+            <option>Instagram</option>
+            <option>X</option>
+            <option>Snapchat</option>
+            <option>Facebook</option>
+          </select>
+          <label>Handle:</label>
+          <label for="handle">@</label>
+          <input type="text" id="handle" name="handle">
+          <br>
+          <br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+  
+</body>
+</html>
